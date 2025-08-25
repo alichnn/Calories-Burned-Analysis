@@ -19,6 +19,22 @@ This project analyzes gym member workout data to explore differences in calorie 
   Used pandas, seaborn, and matplotlib for exploratory data analysis and visualizing relationships between workout attributes
 
 ---
+```mermaid
+flowchart TD
+    A[Data Collection] --> B[Data Cleaning & Preprocessing]
+
+    B --> C[Inference (Statistics)]
+    B --> D[Prediction (ML/Regression)]
+
+    C --> E[Hypothesis Testing<br/>(t-test, p-values)]
+    E --> F[Interpret Feature Significance<br/>α = 0.05, Bonferroni]
+
+    D --> G[Train/Test Split & Cross-validation]
+    G --> H[Evaluate Predictive Performance<br/>(RMSE, R², MAE)]
+    H --> F
+```  
+
+---
 
 ## About the Data
 "This dataset provides a detailed overview of gym members' exercise routines, physical attributes, and fitness metrics. It contains 973 
