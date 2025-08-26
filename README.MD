@@ -21,7 +21,7 @@ This project analyzes gym member workout data to explore differences in calorie 
 ---
 ```mermaid
 flowchart TD
-    A(Data Collection) --> B(Data Cleaning & Preprocessing)
+    A(Data Collection) --> B(Data Cleaning &<br/>Preprocessing)
 
     B --> C("Inference (Statistics)")
     B --> D("Prediction (ML/Regression)")
@@ -29,9 +29,10 @@ flowchart TD
     C --> E("Hypothesis Testing<br/>(t-test, p-values)")
     E --> F("Interpret Feature Significance<br/>(α = 0.05, Bonferroni)")
 
-    D --> G(Train/Test Split & Cross-validation)
-    G --> H("Evaluate Predictive Performance<br/>(R², RMSE)")
+    D --> G(Train/Test Split &<br/>Cross-validation)
+    G --> H("Evaluate Predictive<br/>Performance (R², RMSE)")
     H --> F
+ style F font-size:13px
 ```  
 
 ---
