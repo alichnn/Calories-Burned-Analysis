@@ -37,6 +37,11 @@ flowchart TD
 
 ---
 
+## Deployment with Docker
+This project is containerized using Docker to make the calorie burn prediction API portable and easy to run.
+
+---
+
 ## About the Data
 "This dataset provides a detailed overview of gym members' exercise routines, physical attributes, and fitness metrics. It contains 973 
 samples of gym data, including key performance indicators such as heart rate, calories burned, and workout duration. Each entry also 
